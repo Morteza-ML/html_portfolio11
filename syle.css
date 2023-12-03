@@ -1,0 +1,101 @@
+body{
+    background-color: #C6FCED;
+}
+.conteanir{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+    margin-top: 40px ;
+}
+h1{
+    margin-bottom:0 ;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Monoton', sans-serif;
+    font-weight: 400;
+    color: #07031A;
+    text-shadow: 0px 0px 8px #4d9390 ;
+    word-spacing: 20px;
+  
+}
+.head{
+    background-color: black;
+    padding: 20px;
+    border-start-start-radius: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.body{
+    text-align: center;
+    width: 250px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    
+}
+.h3{
+    font-size: 25px;
+}
+span{
+    font-size: 40px;
+    
+}
+.toz{
+    height: 90px;
+} 
+.top{
+    margin-top: 15px;
+}
+li{
+    text-align: left;
+}
+.hr{
+    width: 70%;
+    margin-bottom: 30px;
+    
+}
+.buy{
+    border-radius: 10px ;
+    border: #fff ;
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    margin-bottom: 40px;
+    transition: background-color 0.1s ease-in-out;
+
+}
+.buy:active{
+    background-color: whitesmoke;
+}
+form>input{
+    display: none;
+}
+@media(max-width:734px){
+    .conteanir{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .body{
+        width: 70%;
+    }
+    h1{
+        font-size: 3rem;
+        margin-bottom: 90px ;
+        margin-top: 80px;
+    }
+    span{
+        font-size: 60px;
+    }
+    .h3{
+        font-size: 40px;
+    }
+    .buy{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+    body{
+        padding-bottom: 50px;
+    }
+}
