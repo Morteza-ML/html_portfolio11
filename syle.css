@@ -71,7 +71,7 @@ li{
 form>input{
     display: none;
 }
-@media(max-width:734px){
+@media(max-width:900px){
     .conteanir{
         flex-direction: column;
         font-size: 20px;
